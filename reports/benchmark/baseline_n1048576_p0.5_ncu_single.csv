@@ -1,0 +1,2 @@
+mode,n,keep_prob,count,iters,avg_ms,logical_gb,logical_gbps,single_launch
+baseline,1048576,0.5,523936,1,3689.74,0.00733862,0.00198893,1

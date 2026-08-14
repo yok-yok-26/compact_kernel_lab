@@ -1,0 +1,96 @@
+mode,stage_index,kernel,rank,reason,value
+v5,0,"compact_v5_kernel<8, 32, 16>",1,long_scoreboard,94.639868
+v5,0,"compact_v5_kernel<8, 32, 16>",2,barrier,12.618124
+v5,0,"compact_v5_kernel<8, 32, 16>",3,short_scoreboard,10.916514
+v5,0,"compact_v5_kernel<8, 32, 16>",4,mio_throttle,2.236539
+v5,0,"compact_v5_kernel<8, 32, 16>",5,wait,1.85008
+v5,1,simple_warp_prefix_exclude_expand<32>,1,long_scoreboard,12.301373
+v5,1,simple_warp_prefix_exclude_expand<32>,2,short_scoreboard,6.131155
+v5,1,simple_warp_prefix_exclude_expand<32>,3,no_instruction,5.483902
+v5,1,simple_warp_prefix_exclude_expand<32>,4,barrier,4.004735
+v5,1,simple_warp_prefix_exclude_expand<32>,5,wait,1.85322
+v5,2,"integrate_block<8, 32, 16>",1,mio_throttle,11.157798
+v5,2,"integrate_block<8, 32, 16>",2,short_scoreboard,10.978946
+v5,2,"integrate_block<8, 32, 16>",3,long_scoreboard,7.891363
+v5,2,"integrate_block<8, 32, 16>",4,barrier,6.091657
+v5,2,"integrate_block<8, 32, 16>",5,wait,2.334278
+library_cub_device_select,0,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",1,no_instruction,17.865031
+library_cub_device_select,0,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",2,short_scoreboard,9.288344
+library_cub_device_select,0,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",3,wait,2.423313
+library_cub_device_select,0,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",4,drain,1.171779
+library_cub_device_select,0,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",5,selected,1.0
+library_cub_device_select,1,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",1,barrier,10.729747
+library_cub_device_select,1,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",2,long_scoreboard,8.728527
+library_cub_device_select,1,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",3,mio_throttle,4.842803
+library_cub_device_select,1,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",4,lg_throttle,4.2388
+library_cub_device_select,1,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",5,wait,1.774721
+library_cub_device_select,2,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",1,no_instruction,17.067485
+library_cub_device_select,2,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",2,short_scoreboard,9.288344
+library_cub_device_select,2,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",3,wait,2.423313
+library_cub_device_select,2,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",4,drain,1.171779
+library_cub_device_select,2,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",5,selected,1.0
+library_cub_device_select,3,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",1,barrier,10.994629
+library_cub_device_select,3,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",2,long_scoreboard,8.450785
+library_cub_device_select,3,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",3,mio_throttle,4.927447
+library_cub_device_select,3,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",4,lg_throttle,4.255133
+library_cub_device_select,3,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",5,wait,1.775035
+library_cub_device_select,4,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",1,no_instruction,18.01227
+library_cub_device_select,4,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",2,short_scoreboard,9.288344
+library_cub_device_select,4,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",3,wait,2.423313
+library_cub_device_select,4,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",4,drain,1.171779
+library_cub_device_select,4,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",5,selected,1.0
+library_cub_device_select,5,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",1,barrier,11.032138
+library_cub_device_select,5,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",2,long_scoreboard,8.373548
+library_cub_device_select,5,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",3,mio_throttle,4.713342
+library_cub_device_select,5,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",4,lg_throttle,4.140816
+library_cub_device_select,5,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",5,wait,1.772779
+library_cub_device_select,6,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",1,no_instruction,17.96319
+library_cub_device_select,6,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",2,short_scoreboard,9.533742
+library_cub_device_select,6,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",3,wait,2.423313
+library_cub_device_select,6,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",4,drain,1.165644
+library_cub_device_select,6,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",5,selected,1.0
+library_cub_device_select,7,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",1,barrier,12.309502
+library_cub_device_select,7,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",2,long_scoreboard,8.346483
+library_cub_device_select,7,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",3,mio_throttle,4.910453
+library_cub_device_select,7,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",4,lg_throttle,3.965037
+library_cub_device_select,7,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",5,wait,1.77656
+library_cub_device_select,8,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",1,no_instruction,18.110429
+library_cub_device_select,8,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",2,short_scoreboard,9.288344
+library_cub_device_select,8,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",3,wait,2.423313
+library_cub_device_select,8,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",4,drain,1.171779
+library_cub_device_select,8,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",5,selected,1.0
+library_cub_device_select,9,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",1,barrier,11.426268
+library_cub_device_select,9,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",2,long_scoreboard,8.82803
+library_cub_device_select,9,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",3,mio_throttle,4.819268
+library_cub_device_select,9,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",4,lg_throttle,4.139741
+library_cub_device_select,9,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",5,wait,1.779261
+library_cub_device_select,10,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",1,no_instruction,18.06135
+library_cub_device_select,10,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",2,short_scoreboard,9.288344
+library_cub_device_select,10,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",3,wait,2.423313
+library_cub_device_select,10,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",4,drain,1.165644
+library_cub_device_select,10,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",5,selected,1.0
+library_cub_device_select,11,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",1,barrier,10.363645
+library_cub_device_select,11,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",2,long_scoreboard,9.089406
+library_cub_device_select,11,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",3,mio_throttle,4.545225
+library_cub_device_select,11,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",4,lg_throttle,3.995937
+library_cub_device_select,11,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",5,wait,1.775417
+library_cub_device_select,12,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",1,no_instruction,17.91411
+library_cub_device_select,12,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",2,short_scoreboard,9.288344
+library_cub_device_select,12,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",3,wait,2.423313
+library_cub_device_select,12,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",4,drain,1.171779
+library_cub_device_select,12,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",5,selected,1.0
+library_cub_device_select,13,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",1,barrier,12.839389
+library_cub_device_select,13,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",2,long_scoreboard,8.717931
+library_cub_device_select,13,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",3,mio_throttle,4.638587
+library_cub_device_select,13,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",4,lg_throttle,3.578236
+library_cub_device_select,13,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",5,wait,1.773421
+library_cub_device_select,14,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",1,no_instruction,18.110429
+library_cub_device_select,14,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",2,short_scoreboard,9.484663
+library_cub_device_select,14,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",3,wait,2.423313
+library_cub_device_select,14,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",4,drain,1.165644
+library_cub_device_select,14,"DeviceCompactInitKernel<ScanTileState<int, 1>, int *>",5,selected,1.0
+library_cub_device_select,15,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",1,barrier,9.90501
+library_cub_device_select,15,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",2,long_scoreboard,9.082855
+library_cub_device_select,15,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",3,mio_throttle,4.752332
+library_cub_device_select,15,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",4,lg_throttle,4.744535
+library_cub_device_select,15,"DeviceSelectSweepKernel<detail::device_select_policy_hub<int, NullType, int, 0, 0>::Policy900, const int *, NullType *, int *, int *, ScanTileState<int, 1>, <unnamed>::KeepThresholdPredicate, NullType, int, 0, 0>",5,wait,1.777788

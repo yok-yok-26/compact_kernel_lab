@@ -1,0 +1,5 @@
+mode,layer,avg_ms,logical_gbps,vs_library_pct,vs_v2_pct
+baseline,simple CUDA baseline,57.6075,1.02157,+35070.9%,+37133.9%
+library_cub_thrust,generic library baseline,0.163793,359.297,+0.0%,+5.9%
+v1,user kernel,0.198648,296.254,+21.3%,+28.4%
+v2,user kernel,0.154718,380.371,-5.5%,+0.0%

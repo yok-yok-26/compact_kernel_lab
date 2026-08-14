@@ -1,0 +1,64 @@
+stage,metric,unit,v1,v2,delta_abs,delta_pct
+compact_main,Duration,us,116.544,90.528,-26.01599999999999,-22.3%
+compact_main,DRAM bandwidth,GB/s,318.225151,370.819371,52.59422000000001,+16.5%
+compact_main,DRAM throughput,% peak,48.095719,56.050386,7.954667000000001,+16.5%
+compact_main,Memory throughput,% peak,48.095719,56.050386,7.954667000000001,+16.5%
+compact_main,SM throughput,% peak,50.397845,48.658447,-1.7393979999999942,-3.5%
+compact_main,SM busy / issue active,%,36.885305,24.236696,-12.648609000000004,-34.3%
+compact_main,Achieved occupancy,%,86.171217,69.129978,-17.041239000000004,-19.8%
+compact_main,Eligible warps/scheduler,warp,0.548154,0.337839,-0.21031500000000003,-38.4%
+compact_main,Active warps/scheduler,warp,10.233342,8.204114,-2.029228,-19.8%
+compact_main,Warp cycles / issued inst,cycle,27.320862,32.918378,5.597515999999995,+20.5%
+compact_main,Avg active threads/warp,thread,29.79,31.07,1.2800000000000011,+4.3%
+compact_main,Avg pred-on threads/warp,thread,28.14,23.06,-5.080000000000002,-18.1%
+compact_main,Registers/thread,reg,20.0,16.0,-4.0,-20.0%
+compact_main,Static smem/block,B,32.0,32.0,0.0,+0.0%
+compact_main,Dynamic smem/block,B,0.0,0.0,0.0,NA
+compact_main,L1/TEX hit rate,%,25.008798,0.803445,-24.205353,-96.8%
+compact_main,L2 hit rate,%,11.774159,3.249604,-8.524555,-72.4%
+compact_main,Global load sectors,sector,1048576.0,1048576.0,0.0,+0.0%
+compact_main,Global store sectors,sector,775650.0,32768.0,-742882.0,-95.8%
+compact_main,Excess global sectors,sector,101.855,0.0,-101.855,-100.0%
+compact_main,Shared bank conflicts,count,49906.0,6347.0,-43559.0,-87.3%
+prefix_expand,Duration,us,12.64,12.576,-0.06400000000000006,-0.5%
+prefix_expand,DRAM bandwidth,GB/s,10.673418,10.768448,0.0950299999999995,+0.9%
+prefix_expand,DRAM throughput,% peak,1.616168,1.635138,0.01896999999999993,+1.2%
+prefix_expand,Memory throughput,% peak,1.692311,1.637106,-0.05520499999999995,-3.3%
+prefix_expand,SM throughput,% peak,1.692311,1.637106,-0.05520499999999995,-3.3%
+prefix_expand,SM busy / issue active,%,0.960231,0.930977,-0.02925399999999989,-3.0%
+prefix_expand,Achieved occupancy,%,16.627177,16.695815,0.06863799999999998,+0.4%
+prefix_expand,Eligible warps/scheduler,warp,0.077243,0.077181,-6.20000000000065e-05,-0.1%
+prefix_expand,Active warps/scheduler,warp,1.991947,1.991255,-0.0006919999999999149,-0.0%
+prefix_expand,Warp cycles / issued inst,cycle,29.437644,29.427688,-0.009955999999998966,-0.0%
+prefix_expand,Avg active threads/warp,thread,32.0,31.98,-0.019999999999999574,-0.1%
+prefix_expand,Avg pred-on threads/warp,thread,30.71,30.69,-0.019999999999999574,-0.1%
+prefix_expand,Registers/thread,reg,22.0,22.0,0.0,+0.0%
+prefix_expand,Static smem/block,B,128.0,128.0,0.0,+0.0%
+prefix_expand,Dynamic smem/block,B,0.0,0.0,0.0,NA
+prefix_expand,L1/TEX hit rate,%,0.0,0.0,0.0,NA
+prefix_expand,L2 hit rate,%,9.746589,10.315495,0.5689060000000001,+5.8%
+prefix_expand,Global load sectors,sector,4096.0,4096.0,0.0,+0.0%
+prefix_expand,Global store sectors,sector,4096.0,4104.0,8.0,+0.2%
+prefix_expand,Excess global sectors,sector,0.0,0.0,0.0,NA
+prefix_expand,Shared bank conflicts,count,0.0,0.0,0.0,NA
+integrate_block,Duration,us,104.608,142.08,37.47200000000001,+35.8%
+integrate_block,DRAM bandwidth,GB/s,178.156011,256.92973,78.773719,+44.2%
+integrate_block,DRAM throughput,% peak,26.938647,38.836718,11.898070999999998,+44.2%
+integrate_block,Memory throughput,% peak,26.938647,39.837332,12.898685000000004,+47.9%
+integrate_block,SM throughput,% peak,31.202987,43.626047,12.42306,+39.8%
+integrate_block,SM busy / issue active,%,16.820645,30.92635,14.105705,+83.9%
+integrate_block,Achieved occupancy,%,66.698538,88.152879,21.454341,+32.2%
+integrate_block,Eligible warps/scheduler,warp,0.229361,0.471729,0.242368,+105.7%
+integrate_block,Active warps/scheduler,warp,7.97636,10.589951,2.6135909999999996,+32.8%
+integrate_block,Warp cycles / issued inst,cycle,46.438474,33.638262,-12.800212000000002,-27.6%
+integrate_block,Avg active threads/warp,thread,29.46,29.2,-0.26000000000000156,-0.9%
+integrate_block,Avg pred-on threads/warp,thread,27.85,27.99,0.13999999999999702,+0.5%
+integrate_block,Registers/thread,reg,16.0,18.0,2.0,+12.5%
+integrate_block,Static smem/block,B,0.0,32.0,32.0,NA
+integrate_block,Dynamic smem/block,B,0.0,0.0,0.0,NA
+integrate_block,L1/TEX hit rate,%,41.580915,32.624156,-8.956758999999998,-21.5%
+integrate_block,L2 hit rate,%,25.865597,11.365768,-14.499829000000002,-56.1%
+integrate_block,Global load sectors,sector,1018753.0,1310720.0,291967.0,+28.7%
+integrate_block,Global store sectors,sector,691320.0,757827.0,66507.0,+9.6%
+integrate_block,Excess global sectors,sector,115.86,116.8,0.9399999999999977,+0.8%
+integrate_block,Shared bank conflicts,count,0.0,23729.0,23729.0,NA

@@ -1,0 +1,2 @@
+mode,batch_size,n,total_elements,threshold,keep_prob,total_count,iters,avg_ms,logical_gb,logical_gbps,single_launch
+baseline,7,1024,7168,0,0.5,3600,100,0.0987366,5.0268e-05,0.509112,0
